@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    color: #000;
+    line-height: 164.063%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #EEEFF1;
+    padding: 50px 0 140px 0;
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 96px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 42px;
+}
+
+.nav__link {
+    color: #34547A;
+    letter-spacing: 1.6px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.header__content {
+    max-width: 1050px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 162px;
+}
+
+.content__img {
+    width: 357px;
+    height: 234px;
+}
+
+.info {
+    max-width: 540px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.header__title {
+    font-size: 48px;
+}
+
+.text {
+    color: #727272;
+    font-weight: 400;
+}
+
+.button {
+    all: unset;
+    cursor: pointer;
+    padding: 10px 20px;
+    color: #FFF;
+    background-color: #34547A;
+    transition: opacity 0.2s ease-in-out;
+    width: max-content;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.button:hover {
+    opacity: 0.9;
+}
