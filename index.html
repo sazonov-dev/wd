@@ -5,6 +5,9 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
@@ -12,18 +15,18 @@
     <header class="header">
         <div class="container">
             <div class="header__top">
-                <img class="logo" src="./images/WD.svg" alt="Логотип">
+                <img src="./images/logo.svg" alt="Логотип" class="logo">
                 <nav class="nav">
-                    <a class="nav__link" href="#">главная</a>
-                    <a class="nav__link" href="#">об авторе</a>
-                    <a class="nav__link" href="#">работы</a>
-                    <a class="nav__link" href="#">процесс</a>
-                    <a class="nav__link" href="#">контакты</a>
+                    <a href="#" class="nav__link">главная</a>
+                    <a href="#" class="nav__link">об авторе</a>
+                    <a href="#" class="nav__link">работы</a>
+                    <a href="#" class="nav__link">процесс</a>
+                    <a href="#" class="nav__link">контакты</a>
                 </nav>
             </div>
             <div class="header__content">
-                <img class="content__img" src="./images/laptop.svg" alt="Логотип ноутбука">
-                <div class="info">
+                <img src="./images/laptop.svg" alt="Логотип ноутбука" class="laptop">
+                <div class="content">
                     <h1 class="header__title">Дизайн и верстка</h1>
                     <p class="text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
                     <button class="button">написать мне</button>
@@ -31,5 +34,85 @@
             </div>
         </div>
     </header>
+    <main class="main">
+        <section class="about">
+            <h2 class="title">Обо мне</h2>
+            <p class="text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+        </section>
+        <section class="project">
+            <div class="container project__content">
+                <div class="project__card">
+                    <img src="./images/project.svg" alt="Иконка">
+                    <div class="project__card-info">
+                        <span class="count">40+</span>
+                        <span class="name">проектов</span>
+                    </div>
+                </div>
+                <div class="project__card">
+                    <img src="./images/project.svg" alt="Иконка">
+                    <div class="project__card-info">
+                        <span class="count">40+</span>
+                        <span class="name">проектов</span>
+                    </div>
+                </div>
+                <div class="project__card">
+                    <img src="./images/project.svg" alt="Иконка">
+                    <div class="project__card-info">
+                        <span class="count">40+</span>
+                        <span class="name">проектов</span>
+                    </div>
+                </div>
+                <div class="project__card">
+                    <img src="./images/project.svg" alt="Иконка">
+                    <div class="project__card-info">
+                        <span class="count">40+</span>
+                        <span class="name">проектов</span>
+                    </div>
+                </div>
+                <div class="project__card">
+                    <img src="./images/project.svg" alt="Иконка">
+                    <div class="project__card-info">
+                        <span class="count">40+</span>
+                        <span class="name">проектов</span>
+                    </div>
+                </div>
+                <div class="project__card">
+                    <img src="./images/project.svg" alt="Иконка">
+                    <div class="project__card-info">
+                        <span class="count">40+</span>
+                        <span class="name">проектов</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="skills">
+            <div class="container skills__content">
+                <div class="skills__details">
+                    <h2 class="title">Мои навыки</h2>
+                    <div class="skills__card-content">
+                        <div class="skills__card">
+                            <p class="text">Adobe Photoshop</p>
+                            <div class="skills__card-line">
+                                <div class="line-absolute"></div>
+                            </div>
+                        </div>
+                        <div class="skills__card">
+                            <p class="text">Javascript</p>
+                            <div class="skills__card-line">
+                                <div class="line-absolute line-2"></div>
+                            </div>
+                        </div>
+                        <div class="skills__card">
+                            <p class="text">CSS</p>
+                            <div class="skills__card-line">
+                                <div class="line-absolute line-3"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img src="./images/person.jpg" alt="Фотография разработчика" class="skills__img">
+            </div>
+        </section>
+    </main>
 </body>
 </html>
